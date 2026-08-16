@@ -1,0 +1,281 @@
+/* =========================
+   STYLE GÉNÉRAL
+   ========================= */
+
+body {
+    margin: 0;
+    background-color: #0f0f16;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 75px;
+
+    background-color: #1b1b25;
+    border-bottom: 1px solid #00e5ff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+}
+
+header p {
+    color: #00e5ff;
+    font-size: 27px;
+    margin: 0;
+}
+
+
+/* =========================
+   SECTION HERO
+   ========================= */
+
+.hero {
+    position: relative;
+
+    text-align: center;
+
+    min-height: 650px;
+
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+    color: #00e5ff;
+
+    font-size: 62px;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    max-width: 1000px;
+
+    margin: auto;
+
+    font-size: 25px;
+
+    line-height: 1.7;
+
+    color: #dddddd;
+}
+
+.informations {
+    margin-top: 40px;
+
+    font-size: 22px;
+
+    color: #bbbbbb;
+}
+
+.informations strong {
+    color: #eeeeee;
+}
+
+
+/* =========================
+   BOUTONS
+   ========================= */
+
+.bouton {
+    display: inline-block;
+
+    margin-top: 50px;
+
+    padding: 20px 35px;
+
+    background-color: #00e5ff;
+
+    color: #101016;
+
+    text-decoration: none;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    border-radius: 12px;
+}
+
+.bouton:hover {
+    background-color: #00c8df;
+}
+
+
+/* =========================
+   SECTION FORMATIONS
+   ========================= */
+
+.formations {
+    position: relative;
+
+    min-height: 700px;
+
+    padding-top: 100px;
+}
+
+
+/* Conteneur des cartes */
+
+.cartes {
+    position: relative;
+
+    width: 80%;
+
+    height: 600px;
+
+    margin: auto;
+}
+
+
+/* =========================
+   CARTES
+   ========================= */
+
+.carte {
+    position: absolute;
+
+    top: 0;
+
+    width: 30%;
+    height: 590px;
+
+    box-sizing: border-box;
+
+    background-color: #1b1b25;
+
+    border: 1px solid #006878;
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    padding: 28px;
+
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.12);
+}
+
+
+/* Position carte 1 */
+
+.carte1 {
+    left: 0;
+}
+
+
+/* Position carte 2 */
+
+.carte2 {
+    left: 35%;
+}
+
+
+/* Position carte 3 */
+
+.carte3 {
+    right: 0;
+}
+
+
+/* =========================
+   IMAGES
+   ========================= */
+
+.carte img {
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+
+/* =========================
+   TITRES DES CARTES
+   ========================= */
+
+.carte h2 {
+    color: #00e5ff;
+
+    font-size: 28px;
+
+    margin-top: 32px;
+}
+
+
+/* =========================
+   DESCRIPTION
+   ========================= */
+
+.carte p {
+    font-size: 21px;
+
+    line-height: 1.5;
+
+    min-height: 65px;
+}
+
+
+/* =========================
+   INFORMATIONS DES CARTES
+   ========================= */
+
+.details {
+    color: #cccccc;
+
+    font-size: 20px;
+
+    line-height: 1.7;
+
+    margin-top: 15px;
+}
+
+
+/* =========================
+   BOUTON DES CARTES
+   ========================= */
+
+.carte .bouton {
+    margin-top: 25px;
+
+    padding: 18px 35px;
+
+    font-size: 20px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    position: relative;
+
+    background-color: #1b1b25;
+
+    border-top: 1px solid #00e5ff;
+
+    text-align: center;
+
+    padding: 25px;
+
+    color: #aaaaaa;
+
+    font-size: 16px;
+}
